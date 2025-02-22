@@ -34,13 +34,15 @@ body{
     inset 0 0 15px rgb(124,124,124);
 
 }
-@keyframes animate{
+@keyframes animate {
+
     0%,
-    100%{
+    100% {
         transform: rotateX(50deg) translateZ(50px) translateY(0);
         filter: hue-rotate(0);
     }
-    50%{
+
+    50% {
         transform: rotateX(70deg) translateZ(50px) translateY(-50vmin);
         filter: hue-rotate(360deg);
     }
